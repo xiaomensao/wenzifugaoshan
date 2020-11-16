@@ -1,5 +1,5 @@
 # Site
-`https://xiaomensao.github.io/wenzifugaoshan/`
+[Site](https://xiaomensao.github.io/wenzifugaoshan/)
 
 # Setup
 
