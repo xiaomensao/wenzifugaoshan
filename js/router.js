@@ -3,5 +3,7 @@ $('document').ready(function() {
     console.log(route);
     if(!route) {
         $('main').load('./pages/home.html');
+    } else {
+        $('main').load('./pages/' + route + '.html');
     }
 });
