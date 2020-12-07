@@ -1,29 +1,63 @@
 <div id="carousel" class="carousel slide w-100 mt-3" data-ride="carousel" data-internal="5000">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="./assets/img/banner/xiaoyangjingjixue.png" class="d-inline"
+                alt="小样经济学">
+            <div class="carousel-caption"></div>
+            <div class="carousel-caption-text">
+                <span class="carousel-caption-title">小样经济学</span><br/>
+                <span class="carousel-caption-subtitle">经济学是一门关于权衡取舍的学问</span>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="./assets/img/banner/luojishanxia.jpg" class="d-inline"
+                alt="落基山下">
+            <div class="carousel-caption"></div>
+            <div class="carousel-caption-text">
+                <span class="carousel-caption-title">联名 | 落基山下</span><br/>
+                <span class="carousel-caption-subtitle">落基山下都是新鲜事</span>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="./assets/img/banner/ziweijiujie.jpg" class="d-inline"
+                alt="紫微九解">
+            <div class="carousel-caption"></div>
+            <div class="carousel-caption-text">
+                <span class="carousel-caption-title">紫微九解</span><br/>
+                <span class="carousel-caption-subtitle">短篇武侠系列</span>
+            </div>
+        </div>
+    </div>
     <ol class="carousel-indicators">
         <li data-target="#carousel" data-slide-to="0" class="active"></li>
         <li data-target="#carousel" data-slide-to="1"></li>
         <li data-target="#carousel" data-slide-to="2"></li>
     </ol>
-    <div class="carousel-inner">
-        <div class="carousel-item active">
-            <img src="./assets/img/banner/xiaoyangjingjixue.png" class="d-inline"
-                alt="小样经济学">
+</div>
+
+<!-- <div>
+    <h2>关于我们</h2>
+    <div class="row">
+        <div class="col-12 col-md-6">
         </div>
-        <div class="carousel-item">
-            <img src="./assets/img/banner/luojishanxia.jpg" class="d-inline"
-                alt="落基山下">
+        <div class="col-12 col-md-6">
         </div>
-        <div class="carousel-item">
-            <img src="./assets/img/banner/ziweijiujie.jpg" class="d-inline"
-                alt="紫微九解">
-            <div class="carousel-caption d-none d-md-block">
-                <h1>紫微九解</h1>
-                <p>短篇武侠系列</p>
-            </div>
-        </div>
+    </div>
+</div> -->
+
+<div class="row">
+    <div class="col-12 col-md-4">
+        <div class="counter" from="0" to="9" label="内容合伙人" icon="fas fa-users"></div>
+    </div>
+    <div class="col-12 col-md-4">
+        <div class="counter" from="0" to="5" label="热门专栏" icon="fas fa-folder-open"></div>
+    </div>
+    <div class="col-12 col-md-4">
+        <div class="counter" from="0" to="27" label="精品文章" icon="fas fa-file-contract"></div>
     </div>
 </div>
 
+<!-- trigger carousel -->
 <script>
     $('#carousel').carousel('cycle');
     // $('#carousel').carousel('pause');
@@ -31,3 +65,7 @@
     //     $('#carousel').carousel('next');
     // }, 5000);
 </script>
+
+<!-- counter js and css -->
+<link rel="stylesheet" type="text/css" href="./components/counter/counter.css?v=20201206">
+<script type="text/javascript" src="./components/counter/counter.js?v=20201206"></script>

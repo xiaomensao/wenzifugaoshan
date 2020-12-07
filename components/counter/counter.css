@@ -1,0 +1,17 @@
+.counter {
+    text-align: center;
+    border: 0.3rem solid var(--secondary);
+}
+
+.counter-icon {
+    font-size: 5rem;
+}
+
+.counter-num {
+    font-size: 5rem;
+    color: var(--secondary);
+}
+
+.counter-label {
+    font-size: 2rem;
+}

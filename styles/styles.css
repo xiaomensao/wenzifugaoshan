@@ -20,6 +20,11 @@ footer {
     margin-top: auto;
 }
 
+/* main */
+.container {
+    padding-bottom: 1rem;
+}
+
 .social-media-icon {
     width: 2rem;
     height: 2rem;
@@ -37,8 +42,60 @@ footer {
     height: 200px;
 }
 
+.carousel-caption {
+    opacity:0.4;
+    background-color: gray;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 10;
+    padding-bottom: 2.5rem;
+    color: #fff;
+    text-align: center;
+}
+
+.carousel-caption-text {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 12;
+    padding-bottom: 0.5rem;
+    color: #fff;
+    text-align: center;
+}
+
+.carousel-caption-title {
+    font-size: 1rem;
+}
+
+.carousel-caption-subtitle {
+    font-size: 0.5rem;
+}
+
+.carousel-indicators {
+    position: relative;
+}
+
 @media (min-width: 768px) {
     .carousel-item img {
         height: 500px;
+    }
+
+    .carousel-caption {
+        padding-bottom: 5rem;
+    }
+
+    .carousel-caption-text {
+        padding-bottom: 1rem;
+    }
+
+    .carousel-caption-title {
+        font-size: 2rem;
+    }
+    
+    .carousel-caption-subtitle {
+        font-size: 1rem;
     }
 }
